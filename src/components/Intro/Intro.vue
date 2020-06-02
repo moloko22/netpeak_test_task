@@ -79,5 +79,89 @@
         letter-spacing: 1px;
         color: #282B31;
     }
-
+    @media screen and (max-width: 1400px) and (min-width: 960px) {
+        .section_intro {
+            position: absolute;
+            width: 70%;
+            height: 310px;
+            left: 135px;
+            top: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: flex-start;
+        }
+        .second_intro {
+            width: 350px;
+            min-height: 100px;
+            margin-bottom: 70px;
+        }
+        .third_intro {
+            display: flex;
+            width: 325px;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px) {
+        .section_intro {
+            position: absolute;
+            width: 70%;
+            height: 310px;
+            left: 50px;
+            top: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: flex-start;
+        }
+        .second_intro {
+            width: 220px;
+            margin-bottom: 70px;
+        }
+        .third_intro {
+            display: flex;
+            flex-direction: column;
+            min-height: 120px;
+            width: 325px;
+            justify-content: space-between;
+        }
+        .second_intro p {
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+        .section_intro {
+            position: absolute;
+            width: 40%;
+            height: 310px;
+            left: 15px;
+            top: 230px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-content: flex-start;
+        }
+        .second_intro {
+            width: 220px;
+            margin-bottom: 70px;
+        }
+        .third_intro {
+            display: flex;
+            flex-direction: column;
+            min-height: 120px;
+            width: 325px;
+            justify-content: space-between;
+        }
+        .second_intro p {
+            font-family: Nunito Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            color: #FFFFFF;
+        }
+    }
 </style>

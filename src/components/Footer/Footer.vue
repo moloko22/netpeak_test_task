@@ -94,4 +94,21 @@
         display: flex;
         justify-content: space-around;
     }
+    @media screen and (max-width: 1440px){
+        .author {
+            margin-top: 35px;
+            width: 40%;
+            min-height: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: flex-end;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px){
+        .author p {
+            width: 200px;
+        }
+    }
 </style>

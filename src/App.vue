@@ -44,4 +44,57 @@ export default {
     display: flex;
     justify-content: center;
   }
+  @media screen and (max-width: 1400px) and (min-width: 960px) {
+    #app {
+      width: 100%;
+      min-height: 2470px;
+      display: flex;
+      justify-content: center;
+    }
+    .application{
+      position: relative;
+      margin-top: -10px;
+      width: 1100px;
+      min-height: 2470px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 960px) and (min-width: 600px) {
+    #app {
+      width: 960px;
+      min-height: 2470px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .application{
+      position: relative;
+      margin-top: -10px;
+      width: 720px;
+      min-height: 2470px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 600px) and (min-width: 300px) {
+    #app {
+      width: 600px;
+      min-height: 2470px;
+      display: flex;
+      justify-content: center;
+    }
+    .application{
+      position: relative;
+      margin-top: -10px;
+      width: 450px;
+      min-height: 2470px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
 </style>

@@ -37,4 +37,64 @@
         background-image: url('../../assets/header_background.png');
         background-repeat: no-repeat;
     }
+    @media screen and (max-width: 1400px) and (min-width: 960px) {
+        header {
+            position: relative;
+            width: 100%;
+            min-height: 900px;
+            color: #FFFFFF;
+            background: #F8F9FA;
+        }
+        .header_background {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            min-height: 900px;
+            background-image: url('../../assets/header_background.png');
+            background-repeat: no-repeat;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px) {
+        header {
+            position: relative;
+            width: 100%;
+            min-height: 900px;
+            color: #FFFFFF;
+            background: #F8F9FA;
+        }
+        .header_background {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            min-height: 900px;
+            background-image: url('../../assets/header_background.png');
+            background-repeat: no-repeat;
+        }
+    }
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+        header {
+            position: relative;
+            width: 100%;
+            min-height: 900px;
+            color: #FFFFFF;
+            background: #F8F9FA;
+        }
+        .header_background {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            min-height: 900px;
+            background-image: url('../../assets/header_background.png');
+            background-repeat: no-repeat;
+        }
+    }
 </style>

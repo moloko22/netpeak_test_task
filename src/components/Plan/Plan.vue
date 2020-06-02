@@ -338,4 +338,97 @@
         background: linear-gradient(167.99deg, #009FC5 0%, #3CECB0 100%);
         border-radius: 6px;
     }
+    @media screen and (max-width: 1400px) and (min-width: 960px) {
+        .section_plan {
+            min-height: 1000px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .plan_professional {
+            position: absolute;
+            width: 350px;
+            height: 510px;
+            left: 600px;
+            top: 968px;
+            background-image: url('../../assets/professional_plan_background.png');
+            background-repeat: no-repeat;
+            box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: space-around;
+            align-items: center;
+            z-index: 999;
+        }
+        .plan_starter {
+            position: absolute;
+            width: 335px;
+            height: 470px;
+            left: 280px;
+            top: 1400px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: space-around;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px) {
+        .section_plan {
+            min-height: 1000px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .choose_plan {
+            position: absolute;
+            width: 230px;
+            height: 331px;
+            left: 15px;
+            top: 960px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .plan_professional {
+            position: absolute;
+            width: 330px;
+            height: 510px;
+            left: 370px;
+            top: 968px;
+            background-image: url('../../assets/professional_plan_background.png');
+            background-repeat: no-repeat;
+            box-shadow: 0 6px 12px rgba(32, 33, 39, 0.08);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: space-around;
+            align-items: center;
+            z-index: 999;
+        }
+        .plan_starter {
+            position: absolute;
+            width: 335px;
+            height: 470px;
+            left: 85px;
+            top: 1350px;
+            background: #FFFFFF;
+            box-shadow: 0 1px 3px rgba(32, 33, 39, 0.12);
+            border-radius: 12px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            align-content: space-around;
+            align-items: center;
+        }
+    }
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+
+    }
 </style>

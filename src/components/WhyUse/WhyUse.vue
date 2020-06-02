@@ -26,7 +26,7 @@
     }
     .app_timer_info{
         position: absolute;
-        width: 25%px;
+        width: 45%;
         height: 50px;
         left: 435px;
         top: 1711px;
@@ -62,5 +62,44 @@
         line-height: 30px;
         text-align: center;
         color: rgba(255, 255, 255, 0.8);
+    }
+    @media screen and (max-width: 1400px) and (min-width: 960px) {
+        .why_use {
+            width: 100%;
+            min-height: 700px;
+            background-image: url('../../assets/header_background.png');
+            background-repeat: no-repeat;
+        }
+        .app_timer_info{
+            position: absolute;
+            width: 45%;
+            height: 50px;
+            left: 300px;
+            top: 1950px;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px) {
+        .why_use {
+            width: 100%;
+            min-height: 700px;
+            background-image: url('../../assets/header_background.png');
+            background-repeat: no-repeat;
+        }
+        .app_timer_info{
+            position: absolute;
+            width: 50%;
+            height: 50px;
+            left: 205px;
+            top: 1930px;
+            min-height: 120px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+
     }
 </style>

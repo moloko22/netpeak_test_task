@@ -1,24 +1,24 @@
 <template>
     <li class="app_timer_item">
-        <p>{{item.name}}</p>
-        <p :id="item.isPaused ? 'pause_background': 'play_background'">{{formattedTimer}}</p>
-        <button v-if="item.isPaused"
-                class="play"
-                v-on:click='setStart(item.id)'>
-            <img
+    <p>{{item.name}}</p>
+    <p :id="item.isPaused ? 'pause_background': 'play_background'">{{formattedTimer}}</p>
+    <button v-if="item.isPaused"
+            class="play"
+            v-on:click='setStart(item.id)'>
+        <img
                 src="../../assets/play.png"
                 alt="start"></button>
-        <button v-if="!item.isPaused"
-                class="pause"
-                v-on:click='setPause(item.id)'>
-            <img
+    <button v-if="!item.isPaused"
+            class="pause"
+            v-on:click='setPause(item.id)'>
+        <img
                 src="../../assets/pause.png"
                 alt="pause"></button>
-        <button v-on:click='deleteItem(item.id)'
-                class="delete">
-            <img src="../../assets/delete.png" alt="delete">
-        </button>
-    </li>
+    <button v-on:click='deleteItem(item.id)'
+            class="delete">
+        <img src="../../assets/delete.png" alt="delete">
+    </button>
+</li>
 </template>
 <script>
     export default {
@@ -143,5 +143,4 @@
 
         color: #676C75;
     }
-
 </style>

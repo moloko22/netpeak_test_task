@@ -81,4 +81,55 @@
         box-shadow: 0 12px 24px rgba(40, 43, 49, 0.16);
         border-radius: 12px;
     }
+    @media screen and (max-width: 1400px) and (min-width: 960px) {
+        .app_timer {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            width: 65%;
+            height: 421px;
+            left: 200px;
+            top: 2100px;
+            background: #FFFFFF;
+            box-shadow: 0 12px 24px rgba(40, 43, 49, 0.16);
+            border-radius: 12px;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px) {
+        .app_timer {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            width: 75%;
+            height: 421px;
+            left: 105px;
+            top: 2100px;
+            background: #FFFFFF;
+            box-shadow: 0 12px 24px rgba(40, 43, 49, 0.16);
+            border-radius: 12px;
+        }
+    }
+    @media screen and (max-width: 600px) and (min-width: 300px) {
+        .app_timer {
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            position: absolute;
+            width: 770px;
+            height: 421px;
+            left: 335px;
+            top: 1898px;
+            background: #FFFFFF;
+            box-shadow: 0 12px 24px rgba(40, 43, 49, 0.16);
+            border-radius: 12px;
+        }
+    }
 </style>

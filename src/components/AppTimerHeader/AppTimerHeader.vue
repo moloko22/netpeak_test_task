@@ -90,4 +90,26 @@
         top: 100%;
         bottom: 71.26%;
     }
+    @media screen and (max-width: 1400px) and (min-width: 960px) {
+        .app_timer_header {
+            position: absolute;
+            width: 490px;
+            left: 100px;
+            height: 50px;
+            top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+    @media screen and (max-width: 960px) and (min-width: 600px) {
+        .app_timer_header {
+            position: absolute;
+            width: 490px;
+            left: 25px;
+            height: 50px;
+            top: 40px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
 </style>
