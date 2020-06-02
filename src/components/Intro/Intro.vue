@@ -11,7 +11,7 @@
 <style>
     .section_intro {
         position: absolute;
-        width: 555px;
+        width: 40%;
         height: 310px;
         left: 135px;
         top: 230px;

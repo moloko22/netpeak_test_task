@@ -36,11 +36,11 @@
             </div>
             <div>
                 <ul>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Hundreds of elements</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Style guide</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">160 icons included</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Sketch files</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Commercial license</li>
+                    <li><img src="../../assets/check_icon_white.png" alt="ok_icon">Hundreds of elements</li>
+                    <li><img src="../../assets/check_icon_white.png" alt="ok_icon">Style guide</li>
+                    <li><img src="../../assets/check_icon_white.png" alt="ok_icon">160 icons included</li>
+                    <li><img src="../../assets/check_icon_white.png" alt="ok_icon">Sketch files</li>
+                    <li><img src="../../assets/check_icon_white.png" alt="ok_icon">Commercial license</li>
                 </ul>
             </div>
             <div>
@@ -56,10 +56,10 @@
             </div>
             <div>
                 <ul>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Hundreds of elements</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Style guide</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">30 icons included</li>
-                    <li><img src="../../assets/ok_icon.png" alt="ok_icon">Personal license</li>
+                    <li><img src="../../assets/check_icon_black.png" alt="ok_icon">Hundreds of elements</li>
+                    <li><img src="../../assets/check_icon_black.png" alt="ok_icon">Style guide</li>
+                    <li><img src="../../assets/check_icon_black.png" alt="ok_icon">30 icons included</li>
+                    <li><img src="../../assets/check_icon_black.png" alt="ok_icon">Personal license</li>
                 </ul>
             </div>
             <div>
@@ -236,7 +236,7 @@
         text-align: center;
         color: #FFFFFF;
     }
-    .plan_professional :nth-child(3) ul{
+    .plan_professional :nth-child(3) ul {
         width: 220px;
         min-height: 150px;
         font-family: Nunito Sans;
@@ -246,11 +246,29 @@
         line-height: 30px;
         color: #FFFFFF;
     }
+    .plan_starter :nth-child(3) ul {
+        font-family: Nunito Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 30px;
+        color: #676C75;
+    }
     .plan_professional :nth-child(3) ul li, .plan_starter:nth-child(3) ul li {
+        display: flex;
+        align-items: center;
         list-style: none;
     }
-    .plan_professional :nth-child(3) ul li img, .plan_starter:nth-child(3) ul li img{
+    .plan_professional :nth-child(3) ul li img, .plan_starter:nth-child(3) ul li img {
+        margin-right: 7px;
+        width: 16px;
+        min-height: 12px;
+    }
+    .plan_professional :nth-child(3) ul li img {
         color: #999EA8;
+    }
+    .plan_starter :nth-child(3) ul li img {
+        color: #282B31;
     }
     .plan_professional div:last-child button {
         width: 250px;

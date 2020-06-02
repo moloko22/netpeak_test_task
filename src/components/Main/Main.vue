@@ -14,7 +14,7 @@
 <style>
     main{
         width: 100%;
-        min-height: 1560px;
+        min-height: 750px;
         display: flex;
         flex-direction: column;
     }

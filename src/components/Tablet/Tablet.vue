@@ -10,7 +10,7 @@
 <style>
     .section_tablet{
         position: absolute;
-        width: 470px;
+        width: 30%;
         height: 708px;
         left: 785px;
         top: 140px;
@@ -38,7 +38,7 @@
         top: 9.17%;
         bottom: 9.17%;
         background: #E7E8EA;
-        width: 433px;
+        width: 15%;
         min-height: 578px;
     }
 </style>

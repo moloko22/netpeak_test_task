@@ -16,11 +16,9 @@
         </div>
     </section>
 </template>
-<srcipt>
-
-</srcipt>
 <style>
     .section_navbar{
+        width: 50%;
         display: flex;
         justify-content: space-around;
     }
@@ -30,7 +28,7 @@
     }
     .section_navbar div h3 {
         position: absolute;
-        width: 118px;
+        width: 20%;
         height: 27px;
         left: 135px;
         top: 30px;
@@ -44,14 +42,14 @@
     }
     .section_navbar nav {
         position: absolute;
-        width: 328px;
+        width: 25%;
         height: 20px;
         left: 815px;
         top: 35px;
     }
     .section_navbar button {
         position: absolute;
-        width: 132px;
+        width: 10%;
         height: 40px;
         left: 1173px;
         top: 25px;
@@ -85,5 +83,4 @@
         line-height: 20px;
         color: #FFFFFF;
     }
-
 </style>
